@@ -1,0 +1,133 @@
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #00205c;
+  font-size: 16px;
+}
+
+header {
+  background-color: #00205c;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid rbga 0, 0, 0, 0.1;
+}
+header .menuBars {
+  width: 50px;
+  height: 50px;
+  color: white;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 28px;
+}
+header .logo {
+  width: 100px;
+  height: auto;
+}
+header .signIn {
+  font-family: Roboto;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+header .signIn:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: #00205c;
+  padding: 1rem;
+  color: white;
+}
+main h2 {
+  font-family: Roboto;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+main .searchChoices {
+  background-color: #00205c;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  margin-bottom: 1rem;
+}
+main .searchChoices ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+main .searchChoices ul li {
+  margin: 0 0.5rem;
+  border-bottom: 5px solid #00205c;
+  padding-bottom: 0.5rem;
+  opacity: 0.7;
+}
+main .searchChoices ul li a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: bold;
+  color: white;
+}
+main .searchChoices ul li:hover {
+  border-bottom: 5px solid #ff8201;
+  opacity: 1;
+}
+
+footer {
+  background-color: #00205c;
+  padding: 1rem;
+  font-family: Roboto;
+  text-align: center;
+}
+footer a {
+  color: white;
+}
+
+.trip {
+  background-color: #00205c;
+  color: black;
+  font-family: Roboto;
+}
+.trip .formFields {
+  background-color: #f6f6f6;
+  padding: 1rem;
+  border: 1px solid #757575;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.trip .formFields .radioGroup {
+  margin-bottom: 0.5rem;
+}
+.trip .formFields .tripInput {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+}
+.trip .formFields .tripInput.tripMargin-left {
+  margin-left: 0.5rem;
+}
+.trip .formFields .tripRow {
+  display: flex;
+}
+.trip .formFields .tripCheckbox {
+  text-align: center;
+}
+.trip .search {
+  background-color: #ff8201;
+  color: white;
+  font-family: Roboto;
+  font-weight: bold;
+  padding: 1rem;
+  width: 100%;
+  border: 0;
+  border-radius: 0.25rem 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

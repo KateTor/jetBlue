@@ -1,0 +1,46 @@
+.trip {
+    background-color: $blue;
+    color: black;
+    font-family: $font;
+
+    .formFields {
+        background-color: $lightGray;
+        padding: 1rem;
+        border: 1px solid $gray;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+
+        .radioGroup {
+            margin-bottom: .5rem;
+            }
+    
+        .tripInput {
+            width: 100%;
+            padding: 1rem;
+            box-sizing: border-box;
+            margin-bottom: .5rem;
+                &.tripMargin-left{
+                    margin-left: .5rem;
+                }
+            }
+    
+        .tripRow {
+            display: flex;
+            }
+
+        .tripCheckbox {
+            text-align: center;
+            }
+        }
+    
+    .search {
+        background-color: $orange;
+        color: white;
+        font-family: $font;
+        font-weight: bold;
+        padding: 1rem;
+        width: 100%;
+        border: 0;
+        border-radius: .25rem 1rem;
+        }
+}
